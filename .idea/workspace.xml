@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688489c6-1dea-4593-834a-cb91575475ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/MSP.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/EntityFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GDB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GEntityChangeEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GImage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GLayerManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GMP3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GMapBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GProperty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GRect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GSize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GSound.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/framework/GWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/editor/Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/editor/EditorMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/editor/EditorToolBox.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/GameEventHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/HeaderPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MSPEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MSPGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MSPGameWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MSPMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MainMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/ManagePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/MenuButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/PauseMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/Player.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Boat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Castle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Fish.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Human.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/King.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Pier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Soldier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Tree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/WoodCutter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/entities/Worker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/NetworkModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/Server.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/ServerClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/ServerInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/TCPConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/src/msp/game/network/TCPConnectorListener.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/msp/game/AI.java" afterPath="$PROJECT_DIR$/src/msp/game/AI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/GMap.java" afterPath="$PROJECT_DIR$/src/framework/GMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/GWindow.java" afterPath="$PROJECT_DIR$/src/framework/GWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/msp/game/MSPGame.java" afterPath="$PROJECT_DIR$/src/msp/game/MSPGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/msp/game/MSPMap.java" afterPath="$PROJECT_DIR$/src/msp/game/MSPMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/msp/game/network/Server.java" afterPath="$PROJECT_DIR$/src/msp/game/network/Server.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/default.map.json" afterPath="$PROJECT_DIR$/assets/default.map.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MSP.iws" />
@@ -130,19 +69,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AI.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/msp/game/AI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37026238" vertical-offset="1277" max-vertical-offset="1620">
-              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="2412">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <element signature="e#1336#1343#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+                <element signature="e#1748#1749#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1881#1882#0" expanded="true" />
+                <element signature="e#1926#1927#0" expanded="true" />
+                <element signature="e#1963#1964#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MSPGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/msp/game/MSPGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3796" max-vertical-offset="4536">
+              <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1328#1335#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#332#340#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Worker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Worker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="828">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Castle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Castle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1026">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/msp/game/network/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68330467" vertical-offset="2645" max-vertical-offset="3330">
+              <caret line="202" column="25" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -319,6 +308,32 @@
               <option name="myItemId" value="msp" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MSP" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -371,7 +386,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.MainMenu">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -895,12 +910,12 @@
       <workItem from="1404457875804" duration="650000" />
       <workItem from="1404474745397" duration="6035000" />
       <workItem from="1404498556263" duration="1055000" />
-      <workItem from="1404499912121" duration="5120000" />
+      <workItem from="1404499912121" duration="6525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35342000" />
+    <option name="totallyTimeSpent" value="36747000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -924,7 +939,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -946,7 +961,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32535884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40031898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1000,10 +1015,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="AI Improvments" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI Improvments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,13 +1045,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/framework/GProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="4086">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/msp/editor/EditorToolBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
@@ -1105,13 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="630">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1026">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1241,13 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="828">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/framework/GFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2358">
@@ -1351,17 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/msp/game/network/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2753" max-vertical-offset="3438">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#1243#1398#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/msp/game/MSPMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3011" max-vertical-offset="3564">
@@ -1378,17 +1365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/msp/game/MSPGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7878788" vertical-offset="1891" max-vertical-offset="4536">
-          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#332#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///var/lib/java/jdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3030303" vertical-offset="5642" max-vertical-offset="6228">
@@ -1397,18 +1373,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/msp/game/AI.java">
+    <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Castle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37026238" vertical-offset="1277" max-vertical-offset="1620">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1026">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="828">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msp/game/MSPGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3796" max-vertical-offset="4536">
+          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1328#1335#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#332#340#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msp/game/entities/Pier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18648648" vertical-offset="435" max-vertical-offset="1116">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msp/game/AI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="2412">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#1336#1343#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1926#1927#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/msp/game/network/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68330467" vertical-offset="2645" max-vertical-offset="3330">
+          <caret line="202" column="25" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

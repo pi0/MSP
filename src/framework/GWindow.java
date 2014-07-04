@@ -10,10 +10,10 @@ public class GWindow extends JFrame {
 
     protected void enableFullscreenMode() {
 
-       setUndecorated(true);
+//       setUndecorated(true);
 
         GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
-        if(gd.isFullScreenSupported()) {
+        if(gd.isFullScreenSupported() && false) {
             gd.setFullScreenWindow(this);
             //requestFocusInWindow();
         } else {

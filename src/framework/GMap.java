@@ -243,7 +243,7 @@ public abstract class GMap extends GFrame {
           return null;//TODO
     }
 
-    private void drawUI() {
+    public void drawUI() {
         drawUI(layers.getGraphics(LAYER_UI, true));
         drawBackgroundUI(layers.getGraphics(LAYER_UI_BACKGROUND, true));
     }

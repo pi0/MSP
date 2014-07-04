@@ -1,9 +1,7 @@
 package msp.game.network;
 
-import framework.GDB;
-import framework.GEntity;
-import framework.GResource;
-import framework.GUtils;
+import framework.*;
+import msp.game.AI;
 import msp.game.MSPGame;
 import msp.game.MSPGameWindow;
 import msp.game.entities.Castle;
@@ -112,7 +110,6 @@ public class Server extends JFrame{
                         new Thread(c).start();
                         GDB.i("New connection");
                         connectedClientsLabel.setText(connectedClients+++1+" Clients connected !");
-
                     }catch (Exception e) {
 
                     }
@@ -132,7 +129,8 @@ public class Server extends JFrame{
         for(ServerClient c:clients)
             c.requestJoin();
 
-        MSPGameWindow w=new MSPGameWindow(GResource.instance.getMap(mapName),getPlayerID(),"Host");
+        GProperty map=GResource.instance.getMap(mapName);
+        MSPGameWindow w=new MSPGameWindow(map,getPlayerID(),"Host");
         w.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -142,15 +140,22 @@ public class Server extends JFrame{
         });
         w.setVisible(true);
 
-
         List<TCPConnector> clientConnectors=new ArrayList();
-        for(ServerClient client:clients) {
+        for(ServerClient client:clients)
             clientConnectors.add(client.connector);
+
+        int numPlayers=1+clients.size();
+        if(numPlayers<map.getInt("num_players")) {
+            int d=map.getInt("num_players")-numPlayers;
+            for(int i=0;i<d;i++) {
+                AI ai=new AI(getPlayerID(), w.game);
+                w.game.cpuPlayers.add(ai.getPlayer());
+            }
         }
 
-        w.game.setNetworkModule(new NetworkModule(w.game,clientConnectors,clientConnectors));
 
-        game=w.game;
+        w.game.setNetworkModule(new NetworkModule(w.game,clientConnectors,clientConnectors));
+       game=w.game;
 
         gameStarted=true;
 

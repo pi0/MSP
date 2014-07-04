@@ -201,7 +201,7 @@ public class MSPMap extends GMap {
         super.keyPressed(e);
         if(e.getKeyChar()=='c') {
             String chat=JOptionPane.showInputDialog("Input text to chat :");
-            game.sendChat(chat);
+            game.sendChat(chat,game.currentPlayer.getName());
         }
     }
 }

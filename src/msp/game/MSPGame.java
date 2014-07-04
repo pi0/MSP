@@ -13,6 +13,8 @@ public class MSPGame extends GGame {
     //Player management
 
     public Player currentPlayer;
+    public List<Player> cpuPlayers=new ArrayList<Player>();
+
 
     boolean isNight;
 
@@ -93,6 +95,14 @@ public class MSPGame extends GGame {
                 if(food<0)
                     currentPlayer.killPeople();
 
+                for(Player p:cpuPlayers) {
+                    food=p.getFood()-p.usedFood();
+                    p.setFood(food);
+                    if(food<0)
+                        p.killPeople();
+                }
+
+
                 if(nightCount++%10==0) {
 //                    String session=map.properties.getStr("session");
 //                    if(session.equals("summer"))
@@ -104,13 +114,15 @@ public class MSPGame extends GGame {
 
     }
 
-    void sendChat(String message) {
+    void sendChat(String message,String name) {
 
-        String iMessage=currentPlayer.getName()+" : "+message;
+        String iMessage=name+" : "+message;
         if(networkModule==null)
             return;
         chat.add(iMessage);
         networkModule.sendChat(iMessage);
+        if(chat.size()>5)
+            chat.clear();
     }
 
 
@@ -154,15 +166,22 @@ public class MSPGame extends GGame {
     }
 
 
-    public void addPlayer(int playerID, String name, String IP) {
+    public Player createPlayer(int id,String name) {
 
         Player p = new Player(this);
         p.setName(name);
-        p.setIP(IP);
-        p.setID(playerID);
+
+        p.setID(id);
 
         p.setFood(500);
         p.setWood(400);
+
+        return p;
+    }
+
+    public void addPlayer(int playerID, String name, String IP) {
+        Player p=createPlayer(playerID,name);
+        currentPlayer=p;
 
 //        //Assign an empty castle to this player
 //        Castle c = null;
@@ -193,7 +212,6 @@ public class MSPGame extends GGame {
 //
 
         //players.add(p);
-        currentPlayer=p;
 
 
     }
@@ -207,13 +225,10 @@ public class MSPGame extends GGame {
         addEntity(newEntity);
         removeEntity(oldEntity);
 
-        if (map.getSelectedEntities().contains(oldEntity)) {
-            map.getSelectedEntities().remove(oldEntity);
-            //map.getSelectedEntities().add(newEntity);
-        }
+        map.getSelectedEntities().clear();
 
+        map.drawUI();
         map.drawEntities(true);
-
 
     }
 

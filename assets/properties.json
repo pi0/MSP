@@ -1,0 +1,163 @@
+{
+    "backgrounds": ["grass", "sea", "beach1" , "beach2" , "beach3" , "beach4" , "beach5", "beach6" ,"beach7","beach8"],
+    "backgroundAreas" : { "grass":1 , "sea":2 ,"beach1":7 , "beach2":7 , "beach7":7 , "beach4":7 , "beach5":7, "beach6":7 ,"beach7":7,"beach8":7},
+    "backgroundBorders" : {
+        "sea" : ["beach1" , "beach2" , "beach3" , "beach4" , "beach5", "beach6" ,"beach7","beach8"]
+    },
+    "types": {
+        "tree": {
+            "isSelectable": false,
+            "wood": 100,
+            "class": "msp.game.entities.Tree",
+            "name": "tree",
+            "areaCode" :3,
+            "layer":8,
+            "env": true,
+            "passive": true
+        },
+        "mountain": {
+            "isSelectable": false,
+            "areaCode" :4,
+            "passive": true
+        },
+        "building": {
+            "isSelectable": true,
+            "areaCode" :5,
+            "layer" :11,
+            "passive": false
+        },
+        "human": {
+            "isSelectable": true,
+            "singleSelect": true,
+            "health": 100,
+            "class": "msp.game.entities.Human",
+            "mode" : "idle",
+            "staticVars" : "ID;owner;x;y",
+            "reachableAreas" : "01365",
+            "step" : 5,
+            "layer" :10,
+            "areaCode" :6,
+            "width": 31,
+            "height": 43
+        }
+    },
+
+    "entities": {
+        "palm": {
+            "type": "tree",
+            "editor": true,
+            "editorIcon": "tree.palm.icon",
+            "image": "tree.palm",
+            "width": 236,
+            "height": 234,
+            "name": "palm tree"
+        },
+        "kaj": {
+            "type": "tree",
+            "editor": true,
+            "editorIcon": "tree.kaj.icon",
+            "image": "tree.kaj",
+            "width": 236,
+            "height": 234
+        },
+        "apple": {
+            "type": "tree",
+            "editor": true,
+            "editorIcon": "tree.apple.icon",
+            "image": "tree.apple",
+            "width": 339,
+            "height": 170
+        },
+        "mountain": {
+            "name": "Mountain",
+            "type": "mountain",
+            "editor": true,
+            "editorIcon": "mountain.mountain.icon",
+            "image": "mountain.mountain",
+            "width": 500,
+            "height": 333
+        },
+        "castle" : {
+            "name":"Castle",
+            "type": "building",
+            "class": "msp.game.entities.Castle",
+            "editor": true,
+            "editorIcon": "buildings.castle.icon",
+            "image": "buildings.castle",
+            "width": 226,
+            "height": 232
+        },
+        "pier": {
+            "name": "Pier",
+            "type" : "building" ,
+            "editor": true,
+            "class" : "msp.game.entities.Pier",
+            "editorIcon": "buildings.pier.icon",
+            "image": "buildings.pier",
+            "width" : 128 ,
+            "height" : 128
+
+        },
+        "soldier": {
+            "name": "soldier",
+            "type": "human",
+            "class":"msp.game.entities.Soldier",
+            "health": 30,
+            "power" : 1 ,
+            "food" : 2,
+            "range" : 40
+        },
+        "king": {
+            "type": "human",
+            "name": "king",
+            "class":"msp.game.entities.King",
+            "power" : 0 ,
+            "food" : 5 ,
+            "health" : 100
+        },
+        "worker": {
+            "name": "worker",
+            "type": "human",
+            "class":"msp.game.entities.Worker",
+            "health": 50,
+            "power" : 0 ,
+            "food" : 1
+        },
+        "woodCutter": {
+            "name": "woodCutter",
+            "type": "human",
+            "class":"msp.game.entities.WoodCutter",
+            "health": 20,
+            "power" : 0 ,
+            "food" : 1,
+            "tabarWood" : 1 ,
+            "bagSize" : 100
+        },
+        "boat" :{
+            "name": "FisherMan",
+            "type": "human",
+            "class":"msp.game.entities.Boat",
+            "health": 20,
+            "food" : 2,
+            "netFood":1,
+            "bagSize" : 100,
+            "reachableAreas" : "02365",
+            "image" : "boat"
+        },
+        "fish" :{
+            "name": "fish",
+            "type": "fish",
+            "class":"msp.game.entities.Fish",
+            "image": "fish.summer",
+            "health": 20,
+            "food" : 100 ,
+            "editor": true,
+            "editorIcon": "fish.icon",
+            "width": 31,
+            "height": 43,
+            "anim" : true
+        }
+    }
+
+
+}

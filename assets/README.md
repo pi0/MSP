@@ -1,0 +1,4 @@
+MSP
+===
+
+Strategy game

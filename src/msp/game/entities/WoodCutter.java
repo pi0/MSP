@@ -1,7 +1,6 @@
 package msp.game.entities;
 
 import framework.*;
-import framework.EntityFilter;
 import msp.game.MSPMap;
 import msp.game.Player;
 

@@ -4,7 +4,6 @@ import framework.*;
 import msp.game.MSPEntity;
 import msp.game.MSPMap;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

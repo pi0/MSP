@@ -2,7 +2,6 @@ package msp.game;
 
 import framework.GResource;
 import framework.GWindow;
-import javafx.application.Application;
 import msp.editor.Editor;
 import msp.game.network.Client;
 import msp.game.network.Server;

@@ -1,6 +1,5 @@
 package msp.game.network;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import framework.GDB;
 import framework.GResource;
 

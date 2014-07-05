@@ -1,7 +1,7 @@
 package msp.game.entities;
 
-import msp.game.MSPEntity;
 import framework.*;
+import msp.game.MSPEntity;
 
 import java.util.List;
 

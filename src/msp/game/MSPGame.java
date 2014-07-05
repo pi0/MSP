@@ -1,6 +1,9 @@
 package msp.game;
 
-import framework.*;
+import framework.GEntity;
+import framework.GGame;
+import framework.GProperty;
+import framework.GUtils;
 import msp.game.network.NetworkModule;
 
 import javax.swing.*;

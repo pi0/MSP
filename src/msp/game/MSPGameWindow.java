@@ -1,10 +1,12 @@
 package msp.game;
 
-import framework.*;
+import framework.GMP3;
+import framework.GProperty;
+import framework.GResource;
+import framework.GWindow;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
 
 public class MSPGameWindow extends GWindow {
 

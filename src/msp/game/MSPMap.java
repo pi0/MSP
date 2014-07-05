@@ -1,7 +1,6 @@
 package msp.game;
 
 import framework.*;
-import framework.EntityFilter;
 import msp.game.entities.Human;
 import msp.game.entities.Tree;
 

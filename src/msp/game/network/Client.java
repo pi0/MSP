@@ -1,6 +1,5 @@
 package msp.game.network;
 
-import com.sun.deploy.util.SessionState;
 import framework.GDB;
 import framework.GProperty;
 import framework.GUtils;

@@ -3,13 +3,7 @@ package msp.game;
 import framework.GEntity;
 import framework.GPoint;
 import framework.GUtils;
-import msp.game.entities.Archer;
-import msp.game.entities.Boat;
-import msp.game.entities.Human;
-import msp.game.entities.King;
-import msp.game.entities.Soldier;
-import msp.game.entities.WoodCutter;
-import msp.game.entities.Worker;
+import msp.game.entities.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,6 @@
 package msp.game.entities;
 
-import framework.GEntity;
-import framework.GGame;
-import framework.GPoint;
-import framework.GProperty;
-import framework.EntityFilter;
+import framework.*;
 import msp.game.MSPMap;
 import msp.game.Player;
 

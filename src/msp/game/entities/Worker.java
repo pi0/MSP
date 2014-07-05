@@ -1,9 +1,9 @@
 package msp.game.entities;
 
-import msp.game.MSPEntity;
 import framework.GEntity;
 import framework.GGame;
 import framework.GProperty;
+import msp.game.MSPEntity;
 
 import java.util.ArrayList;
 import java.util.List;

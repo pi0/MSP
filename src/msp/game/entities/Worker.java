@@ -27,7 +27,7 @@ public class Worker extends Human {
 
         a.add("human.woodCutter.icon;0;Make a woodCutter;WoodCutter");
         a.add("human.soldier.icon;0;Make a soldier;soldier");
-
+        a.add("human.archer.icon;0;Make a archer;archer");
         return a;
     }
 
@@ -38,6 +38,9 @@ public class Worker extends Human {
         }
         if (command.equals("soldier")) {
             game.changeEntity(this, (MSPEntity) GEntity.inflate(GEntity.entityDefaultProperties.get("soldier"), game));
+        }
+        if (command.equals("archer")) {
+            game.changeEntity(this, (MSPEntity) GEntity.inflate(GEntity.entityDefaultProperties.get("archer"), game));
         }
     }
 }

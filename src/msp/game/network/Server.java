@@ -131,8 +131,10 @@ public class Server extends JFrame{
         w.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                super.windowClosing(e);
+                running=false;
+                game.dispose();
                 Server.this.dispose();
+                super.windowClosing(e);
             }
         });
         w.setVisible(true);
@@ -172,7 +174,7 @@ public class Server extends JFrame{
         for(GEntity e:(List<GEntity>)game.entities.clone()) {
             if(e.properties.getBool("passive"))
                 continue;
-          //  game.getNetworkModule().sendFullUpdate(e);
+          //  game.getNetworkModule().sendFullUpdate(e); //TODO //TODO
         }
     }
 

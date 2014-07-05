@@ -102,9 +102,6 @@ public class Boat extends Human {
 
         }
 
-
-   //     updateHuman();
-
     }
 
 

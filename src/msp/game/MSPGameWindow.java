@@ -30,11 +30,7 @@ public class MSPGameWindow extends GWindow {
         game.addEventHandler(new GameEventHandler() {
             @Override
             public void onGameEvent(GameEvent e) {
-                switch (e) {
-                    case GAME_EVENT_GAMEOVER:
-                        close();
-                        break;
-                }
+                MSPGameWindow.this.onGameEvent(e);
             }
         });
 
@@ -50,8 +46,24 @@ public class MSPGameWindow extends GWindow {
         game.addPlayer(playerID,playerName,"");
         titleTag="Client "+playerID;
 
+
+        game.addEventHandler(new GameEventHandler() {
+            @Override
+            public void onGameEvent(GameEvent e) {
+                MSPGameWindow.this.onGameEvent(e);
+            }
+        });
+
         setup();
         setupComponents();
+    }
+
+    public void onGameEvent(GameEventHandler.GameEvent e) {
+        switch (e) {
+            case GAME_EVENT_GAMEOVER:
+                close();
+                break;
+        }
     }
 
 

@@ -17,8 +17,6 @@ public class Pier extends MSPEntity{
     public List<String> getInfo() {
         List<String> info = super.getInfo();
 
-
-
         return info;
     }
 
@@ -38,7 +36,8 @@ public class Pier extends MSPEntity{
         if("make".equals(command)) {
 
             Player p = game.getPlayerByID(getOwner());
-            if(p.getWood() >= 300 || true) {
+
+            if(p.getWood() >= 300) {
                 Boat b = (Boat) GEntity.inflate(GEntity.entityDefaultProperties.get("boat"), game);
                 b.setOwner(getOwner());
 

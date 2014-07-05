@@ -11,7 +11,7 @@
             "class": "msp.game.entities.Tree",
             "name": "tree",
             "areaCode" :3,
-            "layer":8,
+            "layer":800,
             "env": true,
             "passive": true
         },

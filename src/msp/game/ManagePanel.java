@@ -44,7 +44,11 @@ public class ManagePanel extends JPanel {
 
         infoPanel = new JPanel(null, true) {
             protected void paintComponent(Graphics g) {
-                drawInfoPanel((Graphics2D) g);
+                try {
+                    drawInfoPanel((Graphics2D) g);
+                }catch (Exception e) {
+
+                }
             }
         };
         infoPanel.setBackground(Color.green);
@@ -99,8 +103,12 @@ public class ManagePanel extends JPanel {
             @Override
             public void run() {
                 while (true) {
-                    repaint();
-                    GUtils.sleep(100);
+                    try {
+                        repaint();
+                        GUtils.sleep(100);
+                    }catch (Exception e) {
+
+                    }
                 }
             }
         }).start();

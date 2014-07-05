@@ -71,8 +71,7 @@ public class MSPGame extends GGame {
 
     public void losePlayer(int id) {
         getPlayerByID(id).setLose();
-        for(GEntity e : entities)
-            if(((MSPEntity)e).getOwner()==id)
+        for(GEntity e : (List<GEntity>)entities.clone())
                 removeEntity(e);
         if(id==currentPlayer.getID()) {
             JOptionPane.showMessageDialog(map,"Game over","Game over!",JOptionPane.INFORMATION_MESSAGE);
@@ -165,7 +164,12 @@ public class MSPGame extends GGame {
     }
 
     public Player getPlayerByID(int id) {
-        return currentPlayer;//TODO ;)
+        if(id==currentPlayer.getID())
+            return currentPlayer;
+        for(Player p:cpuPlayers)
+            if(p.getID()==id)
+                return p;
+        return null;
     }
 
 
@@ -276,5 +280,9 @@ public class MSPGame extends GGame {
     }
 
 
+    public void dispose() {
+        for(Player p:cpuPlayers)
+            p.properties.put("disposed",true);
+    }
 }
 

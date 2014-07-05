@@ -28,6 +28,8 @@ public class WoodCutter extends Human {
 
             if (wood >= bagSize) {
                 Castle c=p.getCastle();
+                if(c==null)
+                    return;
                 if(c.getRect().intersectsWith(this.getRect())) {
                     p.setWood(p.getWood()+wood);
                     properties.remove("wood");

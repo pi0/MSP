@@ -102,10 +102,19 @@
             "name": "soldier",
             "type": "human",
             "class":"msp.game.entities.Soldier",
-            "health": 30,
+            "health": 60,
             "power" : 1 ,
             "food" : 2,
             "range" : 40
+        },
+		"archer": {
+            "name": "archer",
+            "type": "human",
+            "class":"msp.game.entities.Archer",
+            "health": 50,
+            "power" : 2 ,
+            "food" : 3,
+            "range" : 80
         },
         "king": {
             "type": "human",
@@ -119,7 +128,7 @@
             "name": "worker",
             "type": "human",
             "class":"msp.game.entities.Worker",
-            "health": 50,
+            "health": 40,
             "power" : 0 ,
             "food" : 1
         },

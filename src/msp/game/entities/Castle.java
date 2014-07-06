@@ -47,7 +47,7 @@ public class Castle extends MSPEntity {
             a.x+=10;
             a.y+=10;
             w.setLocation(r.location);
-            w.properties.put("dst",r.getBottomRight());
+            w.properties.put("dst",r.getBottomLeft());
             
             game.currentPlayer.setFood(food-20);
             game.addEntity(w);

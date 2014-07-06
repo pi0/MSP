@@ -81,9 +81,10 @@ public class MSPGame extends GGame {
 
     int nightCount=0;
 
+    int passiveID=20;
     @Override
     public int getEntityID() {
-        return super.getEntityID()*(currentPlayer!=null?currentPlayer.getID()*2000:0);
+        return super.getEntityID()*(currentPlayer!=null?currentPlayer.getID()*2000:passiveID++);
     }
 
     private void onNight() {

@@ -7,6 +7,7 @@ import msp.game.MSPEntity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.BiConsumer;
 
 public class Tree extends MSPEntity {
 
@@ -24,6 +25,7 @@ public class Tree extends MSPEntity {
         List<String> info = super.getInfo();
 
         info.add("Wood: " + properties.getInt("wood"));
+        info.add("ID: " + properties.getInt("id"));
 
         return info;
     }

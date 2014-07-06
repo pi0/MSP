@@ -1,5 +1,7 @@
 package framework;
 
+import msp.game.MSPGame;
+
 import java.awt.*;
 import java.util.Map;
 
@@ -34,7 +36,7 @@ public class GEntity implements Cloneable, Comparable<GEntity> {
         return inflate(properties, id, game);
     }
 
-    public static GEntity inflate(GProperty property, msp.game.MSPGame game) {
+    public static GEntity inflate(GProperty property, MSPGame game) {
         return inflate(property, game.getEntityID(), game);
 
     }

@@ -10,7 +10,7 @@ public class GWindow extends JFrame {
 
     protected void enableFullscreenMode() {
 
-//       setUndecorated(true);
+       setUndecorated(true);
 
         GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
         if(gd.isFullScreenSupported() && false) {
@@ -28,14 +28,14 @@ public class GWindow extends JFrame {
         addFocusListener(new FocusAdapter() {
             @Override
             public void focusGained(FocusEvent e) {
-                super.focusGained(e);
                 setAlwaysOnTop(true);
+                super.focusGained(e);
             }
 
             @Override
             public void focusLost(FocusEvent e) {
-                super.focusLost(e);
                 setAlwaysOnTop(false);
+                super.focusLost(e);
             }
         });
     }

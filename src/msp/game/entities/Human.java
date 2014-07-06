@@ -13,7 +13,9 @@ public abstract class Human extends MSPEntity {
 
     GPoint dst = null;
     GPoint[][] path;
-
+    public boolean attack ;
+    int lastHelath = properties.getInt("health");
+    
     public Human(GProperty properties, int id, GGame game) {
         super(properties, id, game);
         enableWorkingThread();
@@ -116,7 +118,15 @@ public abstract class Human extends MSPEntity {
     @Override
     protected void onThreadCycle(int delayMs) {
         super.onThreadCycle(delayMs);
-
+        
+        if(properties.getInt("health")<lastHelath)
+        	attack=true ;
+        else
+        	attack = false ;
+        
+        lastHelath = properties.getInt("health");
+        	
+        
         if (properties.getInt("health") <= 0)
             game.removeEntity(this);
 
@@ -213,4 +223,5 @@ public abstract class Human extends MSPEntity {
         setLocation(currLoc);
         return true;
     }
+    
 }

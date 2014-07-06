@@ -36,7 +36,9 @@ public class Castle extends MSPEntity {
     public void onAction(String command) {
 
         if ("make".equals(command)) {
-
+        	int food = game.currentPlayer.getFood() ;
+        	
+        	if(food>100){
             Worker w = (Worker) GEntity.inflate(GEntity.entityDefaultProperties.get("worker"), game);
             w.setOwner(getOwner());
 
@@ -46,8 +48,13 @@ public class Castle extends MSPEntity {
             a.y+=10;
             w.setLocation(r.location);
             w.properties.put("dst",r.getBottomRight());
-
+            
+            game.currentPlayer.setFood(food-20);
             game.addEntity(w);
+        	}
+        	
+
+           
         }
 
     }
